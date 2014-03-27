@@ -3,6 +3,12 @@
 
 用第三方帐号登录网站
 
+# Change log
+socialauth升级后，该版本无法使用，针对 socialauth 0.7.28 修改
+
+# depencies
+social_auth = 0.7.28
+
 ## Usage
 
 ### install
