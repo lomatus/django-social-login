@@ -6,7 +6,7 @@
 # Change log
 socialauth升级后，该版本无法使用，针对 socialauth 0.7.28 修改
 
-# depencies
+# dependencies
 social_auth = 0.7.28
 
 ## Usage
