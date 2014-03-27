@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 
-from socialoauth import socialsites
+from socialoauth import SocialSites as socialsites
 from socialoauth.utils import import_oauth_class
 
 from .utils import LazyList
