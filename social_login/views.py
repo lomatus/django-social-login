@@ -2,7 +2,7 @@
 from django.http import HttpResponseRedirect
 from django.db.models import get_model
 
-from socialoauth import socialsites
+from socialoauth import SocialSites
 from socialoauth.utils import import_oauth_class
 from socialoauth.exception import SocialAPIError
 
@@ -17,7 +17,7 @@ from .app_settings import (
 )
 
 
-socialsites.config(SOCIALOAUTH_SITES)
+socialsites =SocialSites(SOCIALOAUTH_SITES)
 
 
 def social_login_callback(request, sitename):
